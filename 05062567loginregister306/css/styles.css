@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family: myfont;
+	src: url("../ttf/Manrope-Medium.ttf");
+}
+
+*{
+	font-family: myfont;
+}
+
+.margin_form{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 200px;
+	header{
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	form{
+		width: 60%;
+/*		ตกแต่งปุ่มและตัวลิ้ง*/
+		.f-button{
+			margin-top: 20px;
+			input{
+				background: #1C4DD3;
+				color: #FFFFFF;
+			}
+			input:hover{
+				background: #0818C5;
+			}
+			a{
+				color: #0015FF;
+			}
+		}
+	}
+}
+
+
+
