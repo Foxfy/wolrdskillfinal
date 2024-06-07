@@ -41,7 +41,7 @@
 					</div>
 					<div class="row f-button">
 						<input type="submit" class="btn form-control" value="Login">
-						<a href="register.php" class="btn">Sign up</a>
+						<a href="register.php" class="btn1">Sign up</a>
 					</div>
 				</form>
 			</div>

@@ -23,7 +23,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
       <div class="container">
-        <a class="navbar-brand" href="competition-index.html"
+        <a class="navbar-brand" href="competitionlist.php"
           >Thai Football competition</a
         >
       </div>
@@ -32,7 +32,7 @@
     <main class="container py-5">
       <header class="mb-4 d-flex align-items-center justify-content-between">
         <h3 class="mb-0">Competition List</h3>
-        <a class="btn btn-outline-primary" href="competition-create.html">Create a competition</a>
+        <a class="btn btn-outline-primary" href="competition-create.php">Create a competition</a>
       </header>
 
       <section class="competition-list">

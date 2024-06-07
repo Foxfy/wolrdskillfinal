@@ -10,6 +10,7 @@
 	font-family: myfont;
 }
 
+/* login&register design start */
 .margin_form{
 	display: flex;
 	flex-direction:column;
@@ -23,7 +24,7 @@
 	}
 	form{
 		width: 60%;
-/*		ตกแต่งปุ่มและตัวลิ้ง*/
+/*		button design&link*/
 		.f-button{
 			margin-top: 20px;
 			input{
@@ -39,6 +40,8 @@
 		}
 	}
 }
+/* login&register design end */
+
 
 
 

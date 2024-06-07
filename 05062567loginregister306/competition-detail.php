@@ -27,7 +27,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <div class="container">
-      <a class="navbar-brand" href="competition-index.html">Thai Football competition</a>
+      <a class="navbar-brand" href="competitionlist.php">Thai Football competition</a>
     </div>
   </nav>
 
@@ -73,7 +73,7 @@
       </header>
       <div class="row justify-content-center">
 		<?php
-			$sql = "SELECT * FROM allowed_provinces AS ap INNER JOIN provinces AS p ON ap.competitions_id = p.id WHERE ap.competitions_id = ".$competition['id'];
+			$sql = "SELECT * FROM allowed_provinces AS ap INNER JOIN provinces AS p ON ap.provinces_id = p.id WHERE ap.competitions_id = ".$competition['id'];
 			$result = $conn->query($sql);
 			while($row = mysqli_fetch_array($result)){
 		?>
