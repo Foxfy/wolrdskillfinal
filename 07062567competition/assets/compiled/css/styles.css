@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* Login & Register */
+
+.margin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    form{
+        width: 60%;
+        div{
+            margin-top: 10px;
+        }
+        .f-button{
+            input{
+                background: #0084ff;
+                color: #FFF;
+            }
+        }
+    }
+}
+
+
+/* compeition-detail */
+.img-w100{
+    width: 100%;
+    height: auto;
+}
